@@ -7,8 +7,6 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -45,6 +43,37 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+
+  /*Blue Color*/
+  --color-cornflower-50: #f4f8fb;
+  --color-cornflower-100: #e7f0f7;
+  --color-cornflower-200: #cae0ed;
+  --color-cornflower-300: #96c2db;
+  --color-cornflower-400: #67a7c9;
+  --color-cornflower-500: #438db4;
+  --color-cornflower-600: #327197;
+  --color-cornflower-700: #2a5b7a;
+  --color-cornflower-800: #264d66;
+  --color-cornflower-900: #244256;
+  --color-cornflower-950: #182b39;
+  /*Gray Color*/
+  --color-cape-cod-50: #f9f9fa;
+  --color-cape-cod-100: #f4f4f5;
+  --color-cape-cod-200: #e5e6e6;
+  --color-cape-cod-300: #d3d4d4;
+  --color-cape-cod-400: #a2a3a4;
+  --color-cape-cod-500: #717273;
+  --color-cape-cod-600: #515254;
+  --color-cape-cod-700: #454647;
+  --color-cape-cod-800: #262727;
+  --color-cape-cod-900: #191a1a;
+  --color-cape-cod-950: #0a0b0b;
+
+  /*Font*/
+  --font-main: var(--font-robot-condensed);
+
+
+
 }
 
 :root {
@@ -124,5 +153,6 @@
   body {
     @apply bg-background text-foreground;
     @apply bg-background text-foreground;
+    @apply font-main;
   }
 }
