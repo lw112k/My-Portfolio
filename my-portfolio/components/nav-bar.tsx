@@ -28,7 +28,7 @@ export default function NavBar() {
     return (
         <nav className="flex gap-8"> 
             {links.map((link,index) => {
-                return <Link href={link.path} key={index} className={`${link.path === pathname && "text-blue-200 border-b-2 border-blue-300 "} capitalize font-medium hover:text-blue-200 transition-all`}>{link.name}</Link>
+                return <Link href={link.path} key={index} className={`${link.path === pathname && "text-cape-cod-700 border-b-3 border-cape-cod-700"}capitalize border-cape-cod-700 text-cape-cod-700 font-medium hover:text-cornflower-500 transition-all`}>{link.name}</Link>
             })}
         </nav>
 
