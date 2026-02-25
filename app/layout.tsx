@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${robotoCondensed.variable} antialiased`}
       >
         <Header/>
-        {children}
+          {children}
         <Footer/>
       </body>
     </html>
