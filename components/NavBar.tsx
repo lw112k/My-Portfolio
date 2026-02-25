@@ -6,10 +6,10 @@ import {usePathname} from "next/navigation";
 
 export default function NavBar() {
     const links = [
-        {name:'About',path:'/about'},
-        {name:'Service',path:'/service'},
-        {name:'Project',path:'/project'},
-        {name:'Contact',path:'/contact'},
+        {name:'About',path:'#about'},
+        {name:'Service',path:'#service'},
+        {name:'Project',path:'#project'},
+        {name:'Contact',path:'#contact'},
     ];
 
     const pathname = usePathname();
