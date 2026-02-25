@@ -15,8 +15,21 @@ export default function NavBar() {
     const pathname = usePathname();
     return (
         <nav className="flex gap-8"> 
-            {links.map((link,index) => {
-                return <Link href={link.path} key={index} className={`${link.path === pathname && "text-cape-cod-700 border-b-3 border-cape-cod-700"}capitalize border-cape-cod-700 text-cape-cod-700 font-medium hover:text-cornflower-500 transition-all`}>{link.name}</Link>
+            {links.map((link, index) => {
+                const isActive = false;
+            
+                return (
+                    <Link 
+                        href={link.path} 
+                        key={index} 
+                        className={`
+                            ${isActive ? "text-cornflower-500 border-b-2" : "text-cape-cod-700"}
+                            capitalize font-medium hover:text-cornflower-500 transition-all
+                        `}
+                    >
+                        {link.name}
+                    </Link>
+                );
             })}
         </nav>
     );
