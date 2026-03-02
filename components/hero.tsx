@@ -1,6 +1,7 @@
 import { DATA } from '@/Data/profile';
 import Image from 'next/image';
 import profilePic from '@/components/image/headshot.jpg';
+import {Linkedin, Mail} from 'lucide-react';
 
 export default function Hero() {
     return (
@@ -15,6 +16,15 @@ export default function Hero() {
                     <p className="text-xl md:text-2xl text-cape-cod-500 mt-4 font-medium">
                         {DATA.role}
                     </p>
+                    <ul className="mt-4">
+                        <a href="mailto:lwlh1103@gmail.com" target="_blank">
+                            <Mail />
+                        </a>
+                        <a href="www.linkedin.com/in/lucaswlh1103" target="_blank">
+                            <Linkedin />
+                        </a>
+                    </ul>
+                    
                 </div>
 
                 {/* Right Side: Image Placeholder/Container */}
