@@ -16,9 +16,9 @@ export const DATA = {
     projects:[
         {
             title: "KL Transit Web App",
-            description: "A web app that allows user to search for fastest and shortest route in KL public transport.",
-            tech: ["Next.js", "TypeScript"],
-            link: "#",
+            description: "A web app that allows user to search for fastest and least transfers route when using KL public transport.",
+            tech: ["Next.js", "TypeScript","Tailwind CSS"],
+            link: "https://kl-transit.vercel.app/",
             github: "https://github.com/lw112k/KL-Transit"
         },
         {
