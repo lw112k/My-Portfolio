@@ -11,6 +11,7 @@ export const DATA = {
     name:'Lucas Wong Li Hong',
     role:'Junior Software Engineer',
     bio:'Software engineer who loves creating meaningful digital experiences. I work across frontend and backend systems, enjoy tackling challenging problems, and constantly look for ways to improve performance, code quality, and team workflows. Whether it`s designing APIs, optimizing UI experiences, or experimenting with new tools, I`m happiest when I`m building something that makes people`s lives easier.',
+    social:["lwlh1103@gmail.com","www.linkedin.com/in/lucaswlh1103","https://github.com/lw112k"],
     skills:["Next.Js"],
     //Project
     projects:[
