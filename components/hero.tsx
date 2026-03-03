@@ -1,9 +1,13 @@
+"use client";
 import { DATA } from '@/Data/profile';
 import Image from 'next/image';
 import profilePic from '@/components/image/headshot.jpg';
-import {Linkedin, Mail} from 'lucide-react';
+import { Linkedin, Mail} from 'lucide-react';
+import { Button } from './ui/button';
+
 
 export default function Hero() {
+    const linkedinURL = "www.linkedin.com/in/lucaswlh1103";
     return (
         <section id="hero" className="min-h-screen w-full flex items-center justify-center scroll-mt-20 py-20">
             <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -16,15 +20,7 @@ export default function Hero() {
                     <p className="text-xl md:text-2xl text-cape-cod-500 mt-4 font-medium">
                         {DATA.role}
                     </p>
-                    <ul className="mt-4">
-                        <a href="mailto:lwlh1103@gmail.com" target="_blank">
-                            <Mail />
-                        </a>
-                        <a href="www.linkedin.com/in/lucaswlh1103" target="_blank">
-                            <Linkedin />
-                        </a>
-                    </ul>
-                    
+                    <a href="#contact"><Button className='mt-3'>Contact Me</Button></a>
                 </div>
 
                 {/* Right Side: Image Placeholder/Container */}
