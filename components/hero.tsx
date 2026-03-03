@@ -1,7 +1,7 @@
 "use client";
 import { DATA } from '@/Data/profile';
 import Image from 'next/image';
-import profilePic from '@/components/image/headshot.jpg';
+import profilePic from '@/public/images/headshot.jpg';
 import { Linkedin, Mail} from 'lucide-react';
 import { Button } from './ui/button';
 
