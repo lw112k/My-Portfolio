@@ -20,7 +20,7 @@ export default function Hero() {
                     <p className="text-xl md:text-2xl text-cape-cod-500 mt-4 font-medium">
                         {DATA.role}
                     </p>
-                    <a href="#contact"><Button className='mt-3'>Contact Me</Button></a>
+                    <a href="#contact"><Button className='mt-3 '>Contact Me</Button></a>
                 </div>
 
                 {/* Right Side: Image Placeholder/Container */}
